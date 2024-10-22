@@ -1,0 +1,43 @@
+# Calificaciones de los alumnos (3 calificaciones por alumno)
+alumno1 = [85, 90, 88]
+alumno2 = [78, 82, 79]
+alumno3 = [92, 88, 91]
+alumno4 = [65, 70, 68]
+alumno5 = [95, 97, 96]
+alumno6 = [80, 85, 83]
+alumno7 = [72, 74, 70]
+alumno8 = [90, 93, 89]
+alumno9 = [60, 65, 62]
+alumno10 = [85, 87, 86]
+
+# Promedios individuales de cada alumno
+promedio_alumno1 = sum(alumno1) / len(alumno1)
+promedio_alumno2 = sum(alumno2) / len(alumno2)
+promedio_alumno3 = sum(alumno3) / len(alumno3)
+promedio_alumno4 = sum(alumno4) / len(alumno4)
+promedio_alumno5 = sum(alumno5) / len(alumno5)
+promedio_alumno6 = sum(alumno6) / len(alumno6)
+promedio_alumno7 = sum(alumno7) / len(alumno7)
+promedio_alumno8 = sum(alumno8) / len(alumno8)
+promedio_alumno9 = sum(alumno9) / len(alumno9)
+promedio_alumno10 = sum(alumno10) / len(alumno10)
+
+# Promedio general del grupo
+promedio_grupal = (
+    promedio_alumno1 + promedio_alumno2 + promedio_alumno3 + promedio_alumno4 +
+    promedio_alumno5 + promedio_alumno6 + promedio_alumno7 + promedio_alumno8 +
+    promedio_alumno9 + promedio_alumno10
+) / 10
+
+# Imprimir los resultados
+print(f"Promedio Alumno 1: {promedio_alumno1:.2f}")
+print(f"Promedio Alumno 2: {promedio_alumno2:.2f}")
+print(f"Promedio Alumno 3: {promedio_alumno3:.2f}")
+print(f"Promedio Alumno 4: {promedio_alumno4:.2f}")
+print(f"Promedio Alumno 5: {promedio_alumno5:.2f}")
+print(f"Promedio Alumno 6: {promedio_alumno6:.2f}")
+print(f"Promedio Alumno 7: {promedio_alumno7:.2f}")
+print(f"Promedio Alumno 8: {promedio_alumno8:.2f}")
+print(f"Promedio Alumno 9: {promedio_alumno9:.2f}")
+print(f"Promedio Alumno 10: {promedio_alumno10:.2f}")
+print(f"\nPromedio general del grupo: {promedio_grupal:.2f}")
